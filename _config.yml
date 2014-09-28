@@ -1,0 +1,32 @@
+# Dependencies
+highlighter:    pygments
+markdown:       redcarpet
+redcarpet:
+    extensions: [
+        'no_intra_emphasis',
+        'fenced_code_blocks',
+        'autolink',
+        'strikethrough',
+        'superscript',
+        'with_toc_data',
+        'tables',
+        'hardwrap'
+    ]
+
+
+# Setup
+title:          'TheReal'
+tagline:        'Documentation for TheReal apps and projects.'
+description:    'This site contains documentation for the urbanverse of TheReal apps and projects.'
+baseurl:        /
+future:         true
+paginate:       30
+theme:          'theme-base-0e'
+
+
+# Permalinks
+permalink:      pretty
+
+
+# Exclude non-site files
+exclude: ['Gemfile', 'Gemfile.lock', 'README.md']
