@@ -59,6 +59,17 @@ This is the The Real home page feed.
 + `https://feeds.thereal.com/lists/{list}/{content_type}/{feed_type}`
 
 
+###### Iris
+Custom feed for Iris partner that delivers an MRSS feed of kaltura videos.
+
++ `https://feeds.thereal.com/iris` - Provides the "home featured" content.
++ `https://feeds.thereal.com/iris/{list}` - Provides content in any public curated list.
+
+
+
+***
+
+
 
 ## ETags
 
